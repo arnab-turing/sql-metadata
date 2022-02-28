@@ -14,6 +14,9 @@ KEYWORDS_BEFORE_COLUMNS = {
     "ON",
     "SET",
     "USING",
+    "ADD",
+    "DROP COLUMN",
+    "MODIFY COLUMN"
 }
 
 # normalized list of table preceding keywords
@@ -61,6 +64,9 @@ COLUMNS_SECTIONS = {
     "INTO": "insert",
     "SET": "update",
     "GROUPBY": "group_by",
+    "ADD": "add",
+    "DROP COLUMN": "drop_column",
+    "MODIFY COLUMN": "modify_column"
 }
 
 
